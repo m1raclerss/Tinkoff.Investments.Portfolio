@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tinkoff.Investments.Application\Tinkoff.Investments.Application.csproj" />
+    <ProjectReference Include="..\Tinkoff.Investments.Domain\Tinkoff.Investments.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
